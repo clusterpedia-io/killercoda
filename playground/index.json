@@ -1,0 +1,17 @@
+{
+     "title": "Clusterpedia search",
+     "description": "Learn to work with Clusterpedia to search multi-cluster resource",
+     "details": {
+          "intro": {
+               "text": "intro.md"
+          },
+          "steps": [
+               {
+                    "text": "step1.md"
+               }
+          ]
+     },
+     "backend": {
+          "imageid": "kubernetes-kubeadm-1node"
+     }
+}
