@@ -1,0 +1,50 @@
+{
+     "title": "Clusterpedia search",
+     "description": "Multi-cluster resource search allows us to filter resources in multiple clusters at once based on query criteria, and provides the ability to paginate and sort these resources.",
+     "details": {
+          "intro": {
+               "text": "intro/intro.md"
+          },
+          "steps": [
+               {
+                    "title": "Install Clusterpedia with helm",
+                    "text": "step1/text.md",
+                    "verify": "step1/verify.sh",
+                    "background": "step1/background.sh"
+               },
+               {
+                    "title": "Join a member cluster to Clusterpedia controlplane",
+                    "text": "step2/text.md",
+                    "verify": "step2/verify.sh"
+               },
+               {
+                    "title": "Basic search Features",
+                    "text": "step3/text.md"
+               },
+               {
+                    "title": "Advance search Features",
+                    "text": "step4/text.md"
+               }
+          ],
+          "finish": {
+               "text": "finish.md"
+          },
+          "assets": {
+               "host01": [
+                    {
+                         "file": "pediacluster.yaml",
+                         "target": "/root",
+                         "chmod": "+w"
+                    },
+                    {
+                         "file": "kind-configuration.yaml",
+                         "target": "/root",
+                         "chmod": "+w"
+                    }
+               ]
+          }
+     },
+     "backend": {
+          "imageid": "kubernetes-k3s-1node-4GB"
+     }
+}

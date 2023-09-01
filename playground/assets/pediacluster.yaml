@@ -1,0 +1,29 @@
+apiVersion: cluster.clusterpedia.io/v1alpha2
+kind: PediaCluster
+metadata:
+  name: member01
+spec:
+  kubeconfig: _MEMBER01_KUBECONFIG_
+  syncResources:
+  - group: ""
+    resources:
+    - "*"
+  - group: "apps"
+    resources:
+    - "*"
+
+---
+
+apiVersion: cluster.clusterpedia.io/v1alpha2
+kind: PediaCluster
+metadata:
+  name: member02
+spec:
+  kubeconfig: _MEMBER02_KUBECONFIG_
+  syncResources:
+  - group: ""
+    resources:
+    - "*"
+  - group: "apps"
+    resources:
+    - "*"
