@@ -1,5 +1,5 @@
 {
-     "title": "Clusterpedia search",
+     "title": "Playground",
      "description": "Multi-cluster resource search allows us to filter resources in multiple clusters at once based on query criteria, and provides the ability to paginate and sort these resources.",
      "details": {
           "intro": {
@@ -24,6 +24,10 @@
                {
                     "title": "Advance search Features",
                     "text": "step4/text.md"
+               },
+               {
+                    "title": "Collection Resource",
+                    "text": "step5/text.md"
                }
           ],
           "finish": {
@@ -45,6 +49,6 @@
           }
      },
      "backend": {
-          "imageid": "kubernetes-k3s-1node-4GB"
+          "imageid": "kubernetes-kubeadm-2nodes"
      }
 }

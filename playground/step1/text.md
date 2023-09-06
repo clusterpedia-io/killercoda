@@ -8,11 +8,11 @@ Install Clusterpedia by `helm` chart:
 
 ```plain
 helm upgrade --install clusterpedia clusterpedia/clusterpedia \
---namespace clusterpedia-system \
---cleanup-on-fail \
---create-namespace \
---set persistenceMatchNode=None \
---set installCRDs=true
+     --namespace clusterpedia-system \
+     --cleanup-on-fail \
+     --create-namespace \
+     --set persistenceMatchNode=None \
+     --set installCRDs=true
 ```{{exec}}
 
 > Please wait about 2 to 3 minutes...

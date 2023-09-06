@@ -34,7 +34,7 @@ In addition to specifying a single namespace, we can also specify to search the 
 
 ```plain
 kubectl --cluster clusterpedia get deployments -A \
-     -l "search.clusterpedia.io/namespaces in (kube-system, default)"
+     -l "search.clusterpedia.io/namespaces in (kube-system, clusterpedia-system)"
 ```{{exec}}
 
 `Specify Resource Names`, We can filter resources by a group of resource names:

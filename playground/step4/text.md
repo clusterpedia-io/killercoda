@@ -67,4 +67,4 @@ Response With Remaining Count, In some UI cases, it is often necessary to get th
 kubectl get --raw="/apis/clusterpedia.io/v1beta1/resources/apis/apps/v1/deployments?withRemainingCount&limit=1" | jq
 ```{{exec}}
 
-If you want to experience more features, please see [Clusterpedia.io](https://clusterpedia.io/)
+The next, Let's lean advance feature: Collection Resource
